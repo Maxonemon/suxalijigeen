@@ -1,4 +1,4 @@
-import { Heart, Sparkles, Target } from "lucide-react";
+import { Flag, Heart, Sparkles, Target } from "lucide-react";
 import { HeroSection } from "../components/HeroSection";
 
 export function QuiSommesNous() {
@@ -7,7 +7,7 @@ export function QuiSommesNous() {
       <HeroSection
         title="Qui sommes-nous?"
         subtitle="Suxali Jigeen est une jeune association féministe qui travaille dans le domaine agricole, agroalimentaire et halieutique. Elle cherche à renforcer les filières féminines agro-alimentaire en amont et en aval tout en privilégiant la démarche recherche action et la prise en compte entre égalité de genre et changement climatique."
-        image="/hero-image.jpg"
+        image="hero-image.jpg"
       />
 
       <div className="container px-4 py-16 mx-auto">
@@ -16,17 +16,7 @@ export function QuiSommesNous() {
             <h2 className="mb-6 text-3xl font-bold text-orange-900">
               Notre Mission et Vision
             </h2>
-            <p className="mb-4 text-lg text-gray-800">
-              Notre Vision : Contribuer à l’avènement d’une société où les
-              femmes accèdent et contrôlent les ressources de manière durable et
-              équitable.
-            </p>
-            <p className="mb-4 text-lg text-gray-800">
-              Mission : Suxali Jigeen œuvre pour que les droits des femmes
-              soient respectés sur le plan social, économique et politique au
-              sein des différentes sphères (familiale, au travail et dans les
-              instances de prise de décisions).
-            </p>
+
             <p className="mb-4 text-lg text-gray-800">
               L’organisation prône comme valeurs : la justice sociale, la
               justice climatique, la solidarité et l’entraide afin d’arriver
@@ -66,7 +56,7 @@ export function QuiSommesNous() {
           </div>
         </div>
 
-        <div className="grid gap-8 mb-16 md:grid-cols-3">
+        <div className="grid gap-8 mb-16 md:grid-cols-4">
           <div className="p-8 bg-white border-t-4 border-orange-500 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
             <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-t from-transparent to-white"></div>
             <Target className="w-12 h-12 mb-4 text-orange-500" />
@@ -74,8 +64,9 @@ export function QuiSommesNous() {
               Notre Vision
             </h3>
             <p className="text-gray-700">
-              Un Sénégal où chaque femme rurale a les moyens de réaliser son
-              potentiel entrepreneurial.
+              Contribuer à l&apos;avènement d&apos;une société où les femmes
+              accèdent et contrôlent les ressources de manière durable et
+              équitable.
             </p>
           </div>
           <div className="p-8 bg-white border-t-4 border-orange-500 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
@@ -100,6 +91,17 @@ export function QuiSommesNous() {
             <p className="text-gray-700">
               Formation pratique, mentorat personnalisé et accès aux marchés
               pour un développement durable.
+            </p>
+          </div>
+          <div className="p-8 bg-white border-t-4 border-orange-500 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
+            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-t from-transparent to-white"></div>
+            <Flag className="w-12 h-12 mb-4 text-orange-500" />
+            <h3 className="mb-3 text-xl font-bold text-orange-900">
+              Notre Mission
+            </h3>
+            <p className="text-gray-700">
+              Suxali Jigeen œuvre pour que les droits des femmes soient
+              respectés sur le plan social, économique et politique.
             </p>
           </div>
         </div>
