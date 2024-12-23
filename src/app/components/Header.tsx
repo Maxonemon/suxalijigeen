@@ -13,12 +13,12 @@ export function Header() {
           <div className="flex items-center space-x-4">
             <img
               src="logo-suxali.jpg"
-              alt="Suxali Jegeen Logo"
+              alt="Suxali Jigeen Logo"
               className="h-16"
             />
             <div>
               <h1 className="text-2xl font-bold text-orange-900">
-                SUXALI JÉGEEN
+                SUXALI JIGEEN
               </h1>
               <p className="text-sm text-orange-700">Femmes en marche</p>
             </div>

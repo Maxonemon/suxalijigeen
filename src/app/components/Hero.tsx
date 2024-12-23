@@ -5,6 +5,8 @@ export function Hero() {
         src="/hero-image"
         alt="Femmes sénégalaises"
         className="absolute object-cover w-full h-full"
+        width={10}
+        height={10}
       />
       <div className="absolute inset-0 bg-gradient-to-r from-orange-900/80 to-orange-800/40" />
       <div className="container relative flex items-center h-full px-4 mx-auto">

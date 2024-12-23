@@ -29,17 +29,17 @@ export function Footer() {
             <h3 className="text-xl font-semibold mb-4">Liens rapides</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/qui-sommes-nous" className="hover:text-orange-300">
+                <a href="/" className="hover:text-orange-300">
                   Qui sommes-nous?
                 </a>
               </li>
               <li>
-                <a href="/nos-actions" className="hover:text-orange-300">
+                <a href="##NosActions" className="hover:text-orange-300">
                   Nos actions
                 </a>
               </li>
               <li>
-                <a href="/nos-partenaires" className="hover:text-orange-300">
+                <a href="/#NosPartenaires" className="hover:text-orange-300">
                   Nos partenaires
                 </a>
               </li>

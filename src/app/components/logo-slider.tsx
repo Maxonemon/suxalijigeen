@@ -23,6 +23,8 @@ export default function LogoSlider() {
               src={logo}
               alt=""
               className="h-20 w-auto object-contain grayscale transition-all duration-200 hover:grayscale-0"
+              width={10}
+              height={10}
             />
           </div>
         ))}

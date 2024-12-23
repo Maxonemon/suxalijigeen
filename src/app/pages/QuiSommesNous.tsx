@@ -7,7 +7,7 @@ export function QuiSommesNous() {
       <HeroSection
         title="Qui sommes-nous?"
         subtitle="Suxali Jigeen est une jeune association féministe qui travaille dans le domaine agricole, agroalimentaire et halieutique. Elle cherche à renforcer les filières féminines agro-alimentaire en amont et en aval tout en privilégiant la démarche recherche action et la prise en compte entre égalité de genre et changement climatique."
-        image="hero-image.jpg"
+        image="/hero-image.jpg"
       />
 
       <div className="container px-4 py-16 mx-auto">
@@ -53,9 +53,11 @@ export function QuiSommesNous() {
           </div>
           <div className="relative">
             <img
-              src="image-femmes.jpg"
+              src="/image-femmes.jpg"
               alt="Femmes entrepreneurs"
               className="rounded-lg shadow-lg"
+              width={10}
+              height={10}
             />
             <div className="absolute p-4 text-white bg-orange-900 rounded-lg shadow-lg -bottom-4 -right-4">
               <p className="font-bold">2018 - 2024</p>
