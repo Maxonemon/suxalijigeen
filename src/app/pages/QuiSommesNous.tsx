@@ -30,7 +30,7 @@ export function QuiSommesNous() {
             <p className="mb-4 text-lg text-gray-800">
               L’organisation prône comme valeurs : la justice sociale, la
               justice climatique, la solidarité et l’entraide afin d’arriver
-              vers une société harmonieuse et un développement durable.
+              vers une société harmonieuse et un développement durable .
             </p>
             <p className="mb-4 text-lg text-gray-800">
               Suxali Jigeen a pour objectif de :
