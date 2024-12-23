@@ -43,7 +43,7 @@ export function QuiSommesNous() {
           </div>
           <div className="relative">
             <img
-              src="/image-femmes.jpg"
+              src="image-femmes.jpg"
               alt="Femmes entrepreneurs"
               className="rounded-lg shadow-lg"
               width={10}
