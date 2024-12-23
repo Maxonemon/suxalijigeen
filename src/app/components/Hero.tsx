@@ -13,8 +13,9 @@ export function Hero() {
             Autonomiser les femmes au Sénégal
           </h1>
           <p className="mb-8 text-xl">
-            Ensemble, construisons un avenir meilleur à travers l'éducation,
-            l'entrepreneuriat et le développement communautaire.
+            Ensemble, construisons un avenir meilleur à travers
+            l&apos;éducation, l&apos;entrepreneuriat et le développement
+            communautaire.
           </p>
           <button className="px-8 py-3 text-lg font-semibold text-white transition-colors duration-200 bg-orange-500 rounded-full hover:bg-orange-600">
             Découvrir nos projets
