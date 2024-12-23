@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M40 100C40 67.9086 65.9086 42 98 42H102C134.091 42 160 67.9086 160 100V100C160 132.091 134.091 158 102 158H98C65.9086 158 40 132.091 40 100V100Z" fill="#FFA500"/>
+  <path d="M80 70C80 56.7452 90.7452 46 104 46V46C117.255 46 128 56.7452 128 70V130C128 143.255 117.255 154 104 154V154C90.7452 154 80 143.255 80 130V70Z" fill="#4CAF50"/>
+  <text x="50" y="110" font-family="Arial" font-size="24" fill="#8B4513">SUXALI</text>
+  <text x="50" y="140" font-family="Arial" font-size="24" fill="#8B4513">JIGEEN</text>
+  <path d="M140 80C140 80 160 100 160 120C160 140 140 160 120 160" stroke="#8B4513" stroke-width="4"/>
+</svg>
