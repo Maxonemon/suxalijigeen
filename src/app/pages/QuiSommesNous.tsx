@@ -14,14 +14,9 @@ export function QuiSommesNous() {
         <div className="grid items-center gap-12 mb-16 md:grid-cols-2">
           <div>
             <h2 className="mb-6 text-3xl font-bold text-orange-900">
-              Notre Mission et Vision
+              Nos Objectifs
             </h2>
 
-            <p className="mb-4 text-lg text-gray-800">
-              L’organisation prône comme valeurs : la justice sociale, la
-              justice climatique, la solidarité et l’entraide afin d’arriver
-              vers une société harmonieuse et un développement durable .
-            </p>
             <p className="mb-4 text-lg text-gray-800">
               Suxali Jigeen a pour objectif de :
             </p>
@@ -41,19 +36,6 @@ export function QuiSommesNous() {
               développement durable et inclusif.
             </p> */}
           </div>
-          <div className="relative">
-            <img
-              src="image-femmes.jpg"
-              alt="Femmes entrepreneurs"
-              className="rounded-lg shadow-lg"
-              width={10}
-              height={10}
-            />
-            <div className="absolute p-4 text-white bg-orange-900 rounded-lg shadow-lg -bottom-4 -right-4">
-              <p className="font-bold">2018 - 2024</p>
-              <p className="text-sm">6 ans d&apos;impact</p>
-            </div>
-          </div>
         </div>
 
         <div className="grid gap-8 mb-16 md:grid-cols-4">
@@ -67,6 +49,17 @@ export function QuiSommesNous() {
               Contribuer à l&apos;avènement d&apos;une société où les femmes
               accèdent et contrôlent les ressources de manière durable et
               équitable.
+            </p>
+          </div>
+          <div className="p-8 bg-white border-t-4 border-orange-500 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
+            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-t from-transparent to-white"></div>
+            <Flag className="w-12 h-12 mb-4 text-orange-500" />
+            <h3 className="mb-3 text-xl font-bold text-orange-900">
+              Notre Mission
+            </h3>
+            <p className="text-gray-700">
+              Suxali Jigeen œuvre pour que les droits des femmes soient
+              respectés sur le plan social, économique et politique.
             </p>
           </div>
           <div className="p-8 bg-white border-t-4 border-orange-500 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
@@ -91,17 +84,6 @@ export function QuiSommesNous() {
             <p className="text-gray-700">
               Formation pratique, mentorat personnalisé et accès aux marchés
               pour un développement durable.
-            </p>
-          </div>
-          <div className="p-8 bg-white border-t-4 border-orange-500 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-t from-transparent to-white"></div>
-            <Flag className="w-12 h-12 mb-4 text-orange-500" />
-            <h3 className="mb-3 text-xl font-bold text-orange-900">
-              Notre Mission
-            </h3>
-            <p className="text-gray-700">
-              Suxali Jigeen œuvre pour que les droits des femmes soient
-              respectés sur le plan social, économique et politique.
             </p>
           </div>
         </div>
