@@ -11,33 +11,6 @@ export function QuiSommesNous() {
       />
 
       <div className="container px-4 py-16 mx-auto">
-        <div className="grid items-center gap-12 mb-16 md:grid-cols-2">
-          <div>
-            <h2 className="mb-6 text-3xl font-bold text-orange-900">
-              Nos Objectifs
-            </h2>
-
-            <p className="mb-4 text-lg text-gray-800">
-              Suxali Jigeen a pour objectif de :
-            </p>
-            <ul className="mb-4 text-lg text-gray-800 list-disc list-inside">
-              <li>Contribuer à l’autonomisation économique.</li>
-              <li>Promouvoir l’égalité de genre et les droits des femmes.</li>
-              <li>
-                Promouvoir la place des femmes dans les Politiques de
-                Souveraineté Alimentaire et du Climat.
-              </li>
-            </ul>
-            {/* <p className="text-lg text-gray-800">
-              Grâce à notre approche collaborative, nous avons réussi à toucher
-              plus de 25 villages au Sénégal, transformant des vies et
-              renforçant les communautés. Nous croyons fermement que
-              l&apos;autonomisation des femmes est essentielle pour un
-              développement durable et inclusif.
-            </p> */}
-          </div>
-        </div>
-
         <div className="grid gap-8 mb-16 md:grid-cols-4">
           <div className="p-8 bg-white border-t-4 border-orange-500 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
             <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-t from-transparent to-white"></div>
@@ -116,7 +89,7 @@ export function QuiSommesNous() {
           </div>
         </div> */}
 
-        <div className="p-12 text-center text-white bg-orange-900 rounded-lg">
+        {/* <div className="p-12 text-center text-white bg-orange-900 rounded-lg">
           <h3 className="mb-4 text-2xl font-bold">Rejoignez Notre Mouvement</h3>
           <p className="max-w-2xl mx-auto mb-8 text-orange-100">
             Ensemble, nous pouvons créer un impact durable dans la vie des
@@ -125,6 +98,33 @@ export function QuiSommesNous() {
           <button className="px-8 py-3 text-lg font-semibold text-orange-900 transition-colors duration-200 bg-white rounded-full hover:bg-orange-100">
             Contactez-nous
           </button>
+        </div> */}
+
+        <div className="grid items-center gap-12 mb-16 md:grid-cols-2">
+          <div>
+            <h2 className="mb-6 text-3xl font-bold text-orange-900">
+              Nos Objectifs
+            </h2>
+
+            <p className="mb-4 text-lg text-gray-800">
+              Suxali Jigeen a pour objectif de :
+            </p>
+            <ul className="mb-4 text-lg text-gray-800 list-disc list-inside">
+              <li>Contribuer à l’autonomisation économique.</li>
+              <li>Promouvoir l’égalité de genre et les droits des femmes.</li>
+              <li>
+                Promouvoir la place des femmes dans les Politiques de
+                Souveraineté Alimentaire et du Climat.
+              </li>
+            </ul>
+            {/* <p className="text-lg text-gray-800">
+              Grâce à notre approche collaborative, nous avons réussi à toucher
+              plus de 25 villages au Sénégal, transformant des vies et
+              renforçant les communautés. Nous croyons fermement que
+              l&apos;autonomisation des femmes est essentielle pour un
+              développement durable et inclusif.
+            </p> */}
+          </div>
         </div>
       </div>
     </div>

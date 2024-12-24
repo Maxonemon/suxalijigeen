@@ -1,4 +1,4 @@
-import { Briefcase, GraduationCap, HeartHandshake } from "lucide-react";
+import { Briefcase, GraduationCap } from "lucide-react";
 import { HeroSection } from "../components/HeroSection";
 import { ProjectCard } from "../components/ProjectCard";
 import { StatCard } from "../components/StatCard";
@@ -59,18 +59,13 @@ export function NosActions() {
           féminines à accéder à des équipements sobres en carbone et à
           l&apos;eau, les impliquant ainsi dans la transition énergétique.
         </p>
-        <div className="grid gap-8 mb-16 md:grid-cols-3">
+        <div className="grid gap-8 mb-16 md:grid-cols-2">
           <StatCard
             icon={GraduationCap}
             value="25+"
             label="Villages Accompagnés"
           />
           <StatCard icon={Briefcase} value="500+" label="Femmes Formées" />
-          <StatCard
-            icon={HeartHandshake}
-            value="15+"
-            label="Produits Développés"
-          />
         </div>
 
         <div className="p-8 mb-16 bg-white rounded-lg shadow-lg">
