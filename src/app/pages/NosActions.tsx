@@ -11,21 +11,21 @@ export function NosActions() {
       description:
         "Culture des légumes à partir des techniques agro-écologique pour garantir la santé des populations et la préservation de l'environnement",
       image: "transformations.jpg",
-      stats: "12 points de vente",
+      stats: "",
     },
     {
       title: "Transformation de céréales",
       description:
         "Formation aux techniques de transformation des produits locaux, amélioration des processus et certification.",
       image: "tiere.jpg",
-      stats: "75+ productrices certifiées",
+      stats: "",
     },
     {
       title: "Produits Halieutiques",
       description:
         "Valorisation des produits halieutiques à travers des techniques de transformation innovantes, soutenant les femmes dans leur activité économique.",
       image: "halieutiques.jpg",
-      stats: "50+ femmes formées",
+      stats: "",
     },
   ];
 

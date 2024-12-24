@@ -64,7 +64,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-orange-800 text-center">
-          <p>&copy; 2024 Suxali Jegeen. Tous droits réservés.</p>
+          <p>&copy; 2024 Suxali Jigeen. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
